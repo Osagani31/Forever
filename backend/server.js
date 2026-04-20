@@ -37,8 +37,11 @@ app.use("/api/user", userRouter);
 app.use("/api/product", productRouter);
 app.use("/api/order", orderRouter);
 
+export default app;
 
-//Start Server
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+// Start local server only in non-serverless environments
+if (!process.env.VERCEL) {
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
+}
