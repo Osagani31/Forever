@@ -7,8 +7,7 @@
 ![Express.js](https://img.shields.io/badge/API-Express.js-lightgrey)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-darkgreen)
 ![Vercel](https://img.shields.io/badge/Deployment-Vercel-black)<br>
-![Stripe](https://img.shields.io/badge/Payment-Stripe-blueviolet)<br>
-![Razorpay](https://img.shields.io/badge/Payment-Razorpay-blue)<br>
+
 
 ---
 
@@ -16,9 +15,13 @@
 
 This is a **full-stack eCommerce web application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.
 
-The platform allows users to browse products, filter and sort items, add products to the cart with variants (like size), and place orders using **Cash on Delivery or Online Payments**.
+The platform allows users to browse products, filter and sort items, add products to the cart with variants (like size), and place orders using **Cash on Delivery **.
 
 It also includes a **fully functional Admin Dashboard** to manage products and monitor orders.
+
+Backend -> https://forever-backend-chi-self.vercel.app/           <br>
+Admin Dashboard -> https://forever-admin-nine-navy.vercel.app/     <br>
+E-commerce app -> https://forever-eta-nine.vercel.app/login
 
 ---
 
@@ -33,7 +36,7 @@ It also includes a **fully functional Admin Dashboard** to manage products and m
 - 💳 Checkout system  
 - 💰 Payment options:
   - Cash on Delivery (COD)
-  - Online Payments via Stripe & Razorpay  
+-Track live status of the Order
 
 ---
 
@@ -58,9 +61,6 @@ It also includes a **fully functional Admin Dashboard** to manage products and m
 ### Database
 - MongoDB  
 
-### Payment Gateways
-- Stripe  
-- Razorpay  
 
 ### Deployment
 - Vercel  
@@ -101,6 +101,31 @@ It also includes a **fully functional Admin Dashboard** to manage products and m
       <h3>Login</h3>
       <img width="400" src="https://github.com/user-attachments/assets/9859506f-60c0-44ff-b40d-0307b0a389ff" />
     </td>
+  </tr>
+</table>
+
+
+<h2 align="center">🛠️ Admin Dashboard</h2>
+
+<table align="center">
+   <tr>
+    <td align="center" valign="top">
+      <h3>Add Product</h3>
+      <img width="400"   alt="screencapture-forever-admin-nine-navy-vercel-app-add-2026-04-20-11_45_09" src="https://github.com/user-attachments/assets/e2f8e2be-3ab4-43ed-8227-601160263ee1" />
+    </td>
+    <td align="center" valign="top">
+      <h3> Product List</h3>
+      <img width="400"  alt="screencapture-forever-admin-nine-navy-vercel-app-list-2026-04-20-11_45_21" src="https://github.com/user-attachments/assets/4e056ba8-14a3-4a15-b860-189088924df1" />
+    </td>
+  </tr>
+
+ 
+  <tr>
+    <td align="center" valign="top">
+      <h3>Orders</h3>
+      <img width="400" alt="screencapture-forever-admin-nine-navy-vercel-app-orders-2026-04-20-11_45_33" src="https://github.com/user-attachments/assets/84e98550-4183-46d2-9808-8c8d7f2abef8" />
+    </td>
+  
   </tr>
 </table>
 
